@@ -1,0 +1,184 @@
+/* Custom styles */
+
+/* Navigation */
+.navbar {
+  background-color: #ffffff; /* Change the background color as needed */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #000000 !important; /* Change the text color as needed */
+}
+
+.navbar-toggler-icon {
+  background-color: #f8f9fa; /* Change the color of the navbar toggler icon */
+}
+
+/* Header Section Styles */
+.header-text {
+  text-align: left;
+  padding-top: 50px; /* Adjust as needed */
+  background-color: #ffffff; /* Change the background color as needed */
+}
+
+.header-text p {
+  font-size: 1.5rem;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+/* Image Styles */
+.col-lg-6 img {
+  max-height: 400px;
+  max-width: 350px;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #ffffff; /* Use the same background color as the Header Section */
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+.section-heading {
+  color: #007bff;
+}
+
+/* Projects Section Styles */
+#projects {
+  background-color: #ffffff; /* Change the background color as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+.proj-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.proj {
+  width: 400px; /* Set your desired width */
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.proj img {
+  width: 100%;
+  height: 80%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.proj h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.proj:hover img {
+  transform: scale(1.1);
+}
+
+/* Contact Me Section */
+#contact {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.section-heading {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text-muted {
+  color: #555;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .col-md-6 {
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+}
+
+/* Footer Section Styles */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.copyright {
+  padding: 10px 10px;
+}
+
+.copyright-txt {
+  font-size: 12px;
+}
+
+.fa-regular {
+  font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-text {
+    text-align: center;
+  }
+
+  .header-text p,
+  .header-text h1 {
+    margin-top: 0;
+  }
+}
